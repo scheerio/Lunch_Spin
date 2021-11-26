@@ -1,0 +1,87 @@
+div {
+  padding-top: 5px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.page {
+  background: rgb(255, 255, 255);
+}
+
+.spinSection {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  word-break: normal;
+}
+
+.suggestionButton {
+  border: 1;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-weight: 600;
+  line-height: 2;
+  border-radius: 20%;
+  min-width: 30%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.lunchForm {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formSection {
+  border-top: 2px solid black;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.lunchResult {
+  background-image: linear-gradient(to right, blue, indigo, violet);
+  overflow-x: scroll;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  box-shadow: 10px 10px #888888;
+}
+
+.suggestion {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  word-break: break-all;
+  color: rgb(255, 255, 255);
+}
+
+.formSubmitButton {
+  background-color: black;
+  border: 1;
+  color: white;
+  font-weight: 600;
+  line-height: 2;
+  border-radius: 20%;
+  min-width: 30%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  /* really tiny screens */
+  .lunchForm {
+    width: 50%;
+  }
+}
+
+.footer {
+  background: black;
+  color: white;
+}

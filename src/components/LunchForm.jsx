@@ -34,35 +34,43 @@ const LunchForm = (props) => {
         <h3>New suggestion? Submit here!</h3>
         <form className="lunchForm" onSubmit={handleAdd}>
           <div>
-            <label>Lunch spot name: </label>
+            <label for="name">Lunch spot name: </label>
             <input
               required
+              id="name"
               name="name"
               type="text"
               placeholder="Chipotle"
             ></input>
           </div>
           <div>
-            <label>Lunch spot address: </label>
+            <label for="address">Lunch spot address: </label>
             <input
               required
+              id="address"
               name="address"
               type="text"
               placeholder="1000 New York Ave"
             ></input>
           </div>
           <div>
-            <label>Lunch spot website: </label>
+            <label for="website">Lunch spot website: </label>
             <input
               required
+              id="website"
               name="website"
               type="url"
               placeholder="http://www.chipotle.com"
             ></input>
           </div>
           <div>
-            <label>Lunch spot notes: </label>
-            <input name="notes" type="text" placeholder="Really tasty!"></input>
+            <label for="notes">Lunch spot notes: </label>
+            <input
+              id="notes"
+              name="notes"
+              type="text"
+              placeholder="Really tasty!"
+            ></input>
           </div>
           <br />
           <input className="formSubmitButton" type="submit"></input>
